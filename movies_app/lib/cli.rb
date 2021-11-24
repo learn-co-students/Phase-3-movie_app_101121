@@ -18,13 +18,13 @@ def menu
     when "1"
         movies = ['2001: A Space Odyssey', 'The Godfather', 'Citizen Kane', 'Raiders of the Lost Ark', 'In the mood for love', 'Seven Samurai']
         movies.each {|movie| puts movie }
-        menu
+        
     when "2"
        puts Ticket.all.map{|t| t.name}
-       menu
+       
     when "3"
         puts create_ticket
-        menu
+        
     else 
         puts "goodbye"
     end 
