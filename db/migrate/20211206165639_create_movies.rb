@@ -5,6 +5,6 @@ class CreateMovies < ActiveRecord::Migration[6.1]
       t.string :director
       t.string :description
       t.boolean :showing
-  end
+    end
   end
 end
