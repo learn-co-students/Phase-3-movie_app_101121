@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 
 function App() {
-  const [tickets, setTickets] = useState()
+  const [tickets, setTickets] = useState([])
 
   useEffect(()=>{
     fetch('http://localhost:9292/tickets')
